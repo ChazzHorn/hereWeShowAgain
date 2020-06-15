@@ -1,7 +1,7 @@
 const mainElement = document.querySelector('main')
 
 const sampleArray = [
-    469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 
+    469, 755, 244, 245, 758, 450, 302, 20, 712, 71,
     456, 21, 398, 339, 882, 848, 179, 535, 940, 472,
 ];
 
@@ -13,12 +13,12 @@ mainElement.append(kata1UL)
 
 
   for(let counter = 1; counter <= 20; counter += 1 ){
-    kata1LI = document.createElement('li') 
+    kata1LI = document.createElement('li')
 
       kata1LI.append(counter)
 
     kata1UL.append(kata1LI);
-     
+
   }
 const kata2heading = document.createElement('h1')
 const kata2UL= document.createElement('ul')
@@ -29,15 +29,15 @@ mainElement.append(kata2UL)
 
 for (counter2 = 1; counter2 <= 20; counter2++) {
     if (counter2 % 2 === 0) {
-    //   console.log(counter2);  
-    kata2LI = document.createElement('li') 
+    //   console.log(counter2);
+    kata2LI = document.createElement('li')
 
     kata2LI.append(counter2)
 
   kata2UL.append(kata2LI);
     }
-    
-  
+
+
   }
 
 const kata3heading = document.createElement('h1')
@@ -48,7 +48,7 @@ mainElement.append(kata3UL)
 
 
   for (let counter3 = 1; counter3 <=20; counter3 +=2) {
-    kata3LI = document.createElement('li') 
+    kata3LI = document.createElement('li')
 
     kata3LI.append(counter3)
 
@@ -61,7 +61,7 @@ kata4heading.append('Kata 4')
 mainElement.append(kata4heading)
 mainElement.append(kata4UL)
 for (let counter4 = 5; counter4 <= 100; counter4 += 5) {
-    kata4LI = document.createElement('li') 
+    kata4LI = document.createElement('li')
 
     kata4LI.append(counter4)
 
@@ -76,7 +76,7 @@ mainElement.append(kata5UL)
 for (let counter5 = 1; counter5 <= 100; counter5 +=1) {
   const isSquare = Number.isInteger(Math.sqrt(counter5));
   if (isSquare) {
-    kata5LI = document.createElement('li') 
+    kata5LI = document.createElement('li')
 
     kata5LI.append(counter5)
 
@@ -91,12 +91,12 @@ kata6heading.append('Kata 6')
 mainElement.append(kata6heading)
 mainElement.append(kata6UL)
 for(let counter6 = 20; counter6>= 1; counter6-- ){
-    kata6LI = document.createElement('li') 
+    kata6LI = document.createElement('li')
 
     kata6LI.append(counter6)
 
   kata6UL.append(kata6LI);
-    
+
   }
 const kata7heading = document.createElement('h1')
 const kata7UL= document.createElement('ul')
@@ -105,14 +105,14 @@ mainElement.append(kata7heading)
 mainElement.append(kata7UL)
 for (counter7 = 20; counter7 >= 1; counter7--) {
     if (counter7 % 2 === 0) {
-    //   console.log(counter2);  
-    kata7LI = document.createElement('li') 
+    //   console.log(counter2);
+    kata7LI = document.createElement('li')
 
     kata7LI.append(counter7)
 
   kata7UL.append(kata7LI);
     }
-    
+
   }
 
 const kata8heading = document.createElement('h1')
@@ -122,7 +122,7 @@ mainElement.append(kata8heading)
 mainElement.append(kata8UL)
 
 for (let counter8 = 20; counter8 >=1; counter8 -=2) {
-    kata8LI = document.createElement('li') 
+    kata8LI = document.createElement('li')
 
     kata8LI.append(counter8)
 
@@ -136,7 +136,7 @@ kata9heading.append('Kata 9')
 mainElement.append(kata9heading)
 mainElement.append(kata9UL)
 for (let counter9 = 100; counter9 >= 5; counter9 -= 5) {
-    kata9LI = document.createElement('li') 
+    kata9LI = document.createElement('li')
 
     kata9LI.append(counter9)
 
@@ -152,10 +152,10 @@ mainElement.append(kata10UL)
 for (let counter10 = 100; counter10 >= 1; counter10 -=1) {
     const isSquare = Number.isInteger(Math.sqrt(counter10));
     if (isSquare) {
-      kata10LI = document.createElement('li') 
-  
+      kata10LI = document.createElement('li')
+
       kata10LI.append(counter10)
-  
+
     kata10UL.append(kata10LI);
     }
   }
@@ -168,7 +168,7 @@ kata11heading.append('Kata 11')
 mainElement.append(kata11heading)
 mainElement.append(kata11UL)
 for(index=0; index<sampleArray.length; index++){
-    kata11LI = document.createElement('li') 
+    kata11LI = document.createElement('li')
 
     kata11LI.append(sampleArray[index])
 
@@ -182,7 +182,7 @@ mainElement.append(kata12heading)
 mainElement.append(kata12UL)
 for(index=0; index<sampleArray.length; index++){
     if(sampleArray[index]% 2 === 0){
-    kata12LI = document.createElement('li') 
+    kata12LI = document.createElement('li')
 
     kata12LI.append(sampleArray[index])
 
@@ -190,9 +190,10 @@ for(index=0; index<sampleArray.length; index++){
 }
 
 const kata13heading = document.createElement('h1')
+const kata12UL= document.createElement('ul')
 kata13heading.append('Kata 13')
 mainElement.append(kata13heading)
-
+mainElement.append(kata13headingUL)
 
 const kata14heading = document.createElement('h1')
 kata14heading.append('Kata 14')
@@ -213,5 +214,3 @@ mainElement.append(kata17heading)
 const kata18heading = document.createElement('h1')
 kata18heading.append('Kata 18')
 mainElement.append(kata18heading)
-
-
