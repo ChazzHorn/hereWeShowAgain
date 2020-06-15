@@ -189,19 +189,19 @@ for(index=0; index<sampleArray.length; index++){
   kata12UL.append(kata12LI);}
 }
 
-const kata13heading = document.createElement('h1')
-const kata12UL= document.createElement('ul')
-kata13heading.append('Kata 13')
-mainElement.append(kata13heading)
-mainElement.append(kata13headingUL)
-for(index=0; index<sampleArray.length; index++){
-    if(sampleArray[index]% 2! === 0){
-    kata12LI = document.createElement('li')
-
-    kata12LI.append(sampleArray[index])
-
-  kata12UL.append(kata12LI);}
-}
+// const kata13heading = document.createElement('h1')
+// const kata12UL= document.createElement('ul')
+// kata13heading.append('Kata 13')
+// mainElement.append(kata13heading)
+// mainElement.append(kata13headingUL)
+// for(index=0; index<sampleArray.length; index++){
+//     if(sampleArray[index]% 2! === 0){
+//     kata12LI = document.createElement('li')
+//
+//     kata12LI.append(sampleArray[index])
+//
+//   kata12UL.append(kata12LI);}
+// }
 
 const kata14heading = document.createElement('h1')
 kata14heading.append('Kata 14')
