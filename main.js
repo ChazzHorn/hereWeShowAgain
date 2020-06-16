@@ -128,13 +128,11 @@ kata8heading.append('Kata 8')
 mainElement.append(kata8heading)
 mainElement.append(kata8UL)
 
-for (let counter8 = 20; counter8 >=1; counter8 -=2) {
-    kata8LI = document.createElement('li')
-
-    kata8LI.append(counter8)
-
-  kata8UL.append(kata8LI);
-  }
+for (let counter8 = 19; counter8 >= 1; counter8 -= 2) {
+  kata8LI = document. createElement('li')
+  kata8LI.append(counter8)
+  kata8UL.append(kata8LI)
+}
 
 
 const kata9heading = document.createElement('h1')
