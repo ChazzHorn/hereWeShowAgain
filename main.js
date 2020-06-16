@@ -167,10 +167,10 @@ const kata11UL= document.createElement('ul')
 kata11heading.append('Kata 11')
 mainElement.append(kata11heading)
 mainElement.append(kata11UL)
-for(index=0; index<sampleArray.length; index++){
+for(counter11=0; counter11<sampleArray.length; counter11++){
     kata11LI = document.createElement('li')
 
-    kata11LI.append(sampleArray[index])
+    kata11LI.append(sampleArray[counter11])
 
   kata11UL.append(kata11LI);
 }
@@ -180,28 +180,30 @@ const kata12UL= document.createElement('ul')
 kata12heading.append('Kata 12')
 mainElement.append(kata12heading)
 mainElement.append(kata12UL)
-for(index=0; index<sampleArray.length; index++){
-    if(sampleArray[index]% 2 === 0){
+for(counter12=0; counter12<sampleArray.length; counter12++){
+    if(sampleArray[counter12]% 2 === 0){
     kata12LI = document.createElement('li')
 
-    kata12LI.append(sampleArray[index])
+    kata12LI.append(sampleArray[counter12])
 
   kata12UL.append(kata12LI);}
 }
 
-// const kata13heading = document.createElement('h1')
-// const kata12UL= document.createElement('ul')
-// kata13heading.append('Kata 13')
-// mainElement.append(kata13heading)
-// mainElement.append(kata13headingUL)
-// for(index=0; index<sampleArray.length; index++){
-//     if(sampleArray[index]% 2! === 0){
-//     kata12LI = document.createElement('li')
-//
-//     kata12LI.append(sampleArray[index])
-//
-//   kata12UL.append(kata12LI);}
-// }
+const kata13heading = document.createElement('h1')
+const kata13UL= document.createElement('ul')
+kata13heading.append('Kata 13')
+mainElement.append(kata13heading)
+mainElement.append(kata13UL)
+
+for(counter13=0; counter13<sampleArray.length; counter13++){
+    if((sampleArray[counter13]% 2)!== 0){
+    kata13LI = document.createElement('li')
+
+    kata13LI.append(sampleArray[counter13])
+
+  kata13UL.append(kata13LI);}
+
+}
 
 const kata14heading = document.createElement('h1')
 kata14heading.append('Kata 14')
