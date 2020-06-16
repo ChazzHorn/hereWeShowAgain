@@ -243,7 +243,7 @@ mainElement.append(kata15UL)
 const numbersThru20Array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 let result= 0
 for(let counter15 = 0; counter15 < numbersThru20Array.length; counter15 += 1 ){
-  
+
 result +=numbersThru20Array[counter15]
 }
 kata15LI = document.createElement('li')
@@ -253,13 +253,40 @@ kata15LI = document.createElement('li')
 kata15UL.append(kata15LI);
 
 const kata16heading = document.createElement('h1')
+const kata16UL= document.createElement('ul')
 kata16heading.append('Kata 16')
 mainElement.append(kata16heading)
+mainElement.append(kata16UL)
+
+let result2= 0
+for(let counter16 = 0; counter16 < sampleArray.length; counter16 += 1 ){
+
+result2 +=sampleArray[counter16]
+}
+kata16LI = document.createElement('li')
+
+  kata16LI.append(result2)
+
+kata16UL.append(kata16LI);
+
 
 const kata17heading = document.createElement('h1')
+const kata17UL= document.createElement('ul')
 kata17heading.append('Kata 17')
 mainElement.append(kata17heading)
+mainElement.append(kata17UL)
+
+
+kata17LI = document.createElement('li')
+  kata17LI.append(Math.min(...sampleArray))
+kata17UL.append(kata17LI);
 
 const kata18heading = document.createElement('h1')
+const kata18UL= document.createElement('ul')
 kata18heading.append('Kata 18')
 mainElement.append(kata18heading)
+mainElement.append(kata18UL)
+
+kata18LI = document.createElement('li')
+  kata18LI.append(Math.max(...sampleArray))
+kata18UL.append(kata18LI);
