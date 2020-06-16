@@ -1,3 +1,10 @@
+
+//Group: Doris E Mondo
+//       Stacy Gilbert
+//       Chazz Horn
+
+
+
 const mainElement = document.querySelector('main')
 
 const sampleArray = [
@@ -206,12 +213,44 @@ for(counter13=0; counter13<sampleArray.length; counter13++){
 }
 
 const kata14heading = document.createElement('h1')
+const kata14UL= document.createElement('ul')
 kata14heading.append('Kata 14')
 mainElement.append(kata14heading)
+mainElement.append(kata14UL)
+
+for (let counter14 = 1; counter14 < sampleArray.length; counter14 +=1) {
+  // const isSquare = Number.isInteger(Math.pow(sampleArray[counter14], 2));
+  // if (isSquare) {
+
+    kata14LI = document.createElement('li')
+
+    kata14LI.append(Math.pow(sampleArray[counter14],2))
+
+  kata14UL.append(kata14LI);
+
+
+  // }
+// console.log(Math.pow(sampleArray[counter14], 2))
+}
+
+
 
 const kata15heading = document.createElement('h1')
+const kata15UL= document.createElement('ul')
 kata15heading.append('Kata 15')
 mainElement.append(kata15heading)
+mainElement.append(kata15UL)
+const numbersThru20Array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+let result= 0
+for(let counter15 = 0; counter15 < numbersThru20Array.length; counter15 += 1 ){
+  
+result +=numbersThru20Array[counter15]
+}
+kata15LI = document.createElement('li')
+
+  kata15LI.append(result)
+
+kata15UL.append(kata15LI);
 
 const kata16heading = document.createElement('h1')
 kata16heading.append('Kata 16')
