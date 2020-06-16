@@ -216,7 +216,7 @@ kata14heading.append('Kata 14')
 mainElement.append(kata14heading)
 mainElement.append(kata14UL)
 
-for (let counter14 = 1; counter14 < sampleArray.length; counter14 +=1) {
+for (let counter14 = 0; counter14 < sampleArray.length; counter14 +=1) {
   // const isSquare = Number.isInteger(Math.pow(sampleArray[counter14], 2));
   // if (isSquare) {
 
